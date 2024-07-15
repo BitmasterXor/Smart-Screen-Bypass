@@ -65,7 +65,8 @@ end;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   try
-    RemoveZoneIdentifier('C:\Users\BitmasterXor\Desktop\yourfile.exe');
+  //Do not forget to add the correct path to the file you  wish to remove the zone ID from on the next line of code! Or add in another way of pointing to it!
+    RemoveZoneIdentifier('C:\Users\YOUR  USERNAME GOES HERE!\Desktop\yourfile.exe');
     ShowMessage('Zone.Identifier removed successfully.');
   except
     on E: Exception do
@@ -76,7 +77,8 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
   try
-    AddZoneIdentifier('C:\Users\BitmasterXor\Desktop\yourfile.exe', 3); // 3 = Internet Zone
+   //Do not forget to add the correct path to the file you  wish to Add the zone ID to on the next line of code! Or add in another way of pointing to it!
+    AddZoneIdentifier('C:\Users\YOUR  USERNAME GOES HERE!\Desktop\yourfile.exe', 3); // 3 = Internet Zone
     ShowMessage('Zone.Identifier added successfully.');
   except
     on E: Exception do
