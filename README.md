@@ -1,7 +1,12 @@
-This project demonstrates how to add and remove Zone IDs to ensure a PE Binary (.EXE) can run without triggering Microsoft Windows Smart Screen.
+# Project Title
 
-![2024-07-16 11_47_51-Bypass Smart Screen](https://github.com/user-attachments/assets/fcde375e-9ca4-4285-b9ac-0472666f7d75)
+<p align="center">
+  This project demonstrates how to add and remove Zone IDs to ensure a PE Binary (.EXE) can run without triggering Microsoft Windows Smart Screen.
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fcde375e-9ca4-4285-b9ac-0472666f7d75" alt="2024-07-16 11_47_51-Bypass Smart Screen">
+</p>
 
 **Key Points to Consider:**
 - Zone ID #3 (Internet Zone) triggers SmartScreen.
