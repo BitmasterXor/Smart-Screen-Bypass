@@ -19,3 +19,9 @@
 - Users can then extract the .exe from the .zip archive, .ISO file, or other containers without triggering SmartScreen.
 
 This approach ensures that the executable remains unflagged and can be executed without unnecessary security warnings.
+
+## 📧 Contact
+
+Discord: BitmasterXor
+
+<p align="center">Made with ❤️ by: BitmasterXor, using Delphi RAD Studio</p>
